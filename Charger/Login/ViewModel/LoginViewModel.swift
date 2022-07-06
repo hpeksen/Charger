@@ -13,7 +13,7 @@ class LoginViewModel {
      getData(eMail, navigationController)
 }
     private func getData (_ email: String, _ navigationController: UINavigationController){
-        model.loginPostRequest(eMail: email) {  code in
+        model.loginPostRequest(email: email) {  code in
             switch code{
             case .success(let code):
                 if(code == 200){
