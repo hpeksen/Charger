@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class HomePageViewController: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,6 @@ class HomePageViewController: UIViewController {
     func setupUI(){
       
     }
-    
     @IBAction func btnMakeAppointment(_ sender: Any) {
     }
 

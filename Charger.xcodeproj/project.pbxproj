@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0A08BA0E97C157725D1409BA /* Pods_Charger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458BE58A93A6BB2CF40AB058 /* Pods_Charger.framework */; };
+		9916A165287A55FA00546E67 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9916A163287A55FA00546E67 /* StationTableViewCell.swift */; };
+		9916A166287A55FA00546E67 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9916A164287A55FA00546E67 /* StationTableViewCell.xib */; };
 		991EFDBC28720C9500DC7F81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EFDBB28720C9500DC7F81 /* LoginViewModel.swift */; };
 		991EFDC02872177F00DC7F81 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */; };
 		9933AA1928747A1D00BF6110 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933AA1828747A1D00BF6110 /* ProfileViewController.swift */; };
+		9933F1A528785CF0003E725F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933F1A428785CF0003E725F /* FilterViewController.swift */; };
 		994582DD2875BE8100BB5C23 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582DC2875BE8100BB5C23 /* CityViewController.swift */; };
 		994582E62875C7B000BB5C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582E52875C7B000BB5C23 /* User.swift */; };
 		994582E82875C7BF00BB5C23 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582E72875C7BF00BB5C23 /* LoginModel.swift */; };
+		994582EA2875DB7900BB5C23 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582E92875DB7900BB5C23 /* StationViewController.swift */; };
 		9982C5CC2870F6E000B283EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982C5CB2870F6E000B283EB /* AppDelegate.swift */; };
 		9982C5CE2870F6E000B283EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982C5CD2870F6E000B283EB /* SceneDelegate.swift */; };
 		9982C5D02870F6E000B283EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982C5CF2870F6E000B283EB /* LoginViewController.swift */; };
@@ -24,12 +28,16 @@
 
 /* Begin PBXFileReference section */
 		458BE58A93A6BB2CF40AB058 /* Pods_Charger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9916A163287A55FA00546E67 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		9916A164287A55FA00546E67 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
 		991EFDBB28720C9500DC7F81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		9933AA1828747A1D00BF6110 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9933F1A428785CF0003E725F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		994582DC2875BE8100BB5C23 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		994582E52875C7B000BB5C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		994582E72875C7BF00BB5C23 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		994582E92875DB7900BB5C23 /* StationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
 		9982C5C82870F6E000B283EB /* Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9982C5CB2870F6E000B283EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9982C5CD2870F6E000B283EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +145,10 @@
 				991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */,
 				9933AA1828747A1D00BF6110 /* ProfileViewController.swift */,
 				994582DC2875BE8100BB5C23 /* CityViewController.swift */,
+				994582E92875DB7900BB5C23 /* StationViewController.swift */,
+				9933F1A428785CF0003E725F /* FilterViewController.swift */,
+				9916A163287A55FA00546E67 /* StationTableViewCell.swift */,
+				9916A164287A55FA00546E67 /* StationTableViewCell.xib */,
 			);
 			path = Charger;
 			sourceTree = "<group>";
@@ -203,6 +215,7 @@
 			files = (
 				9982C5D82870F6E100B283EB /* LaunchScreen.storyboard in Resources */,
 				9982C5D52870F6E100B283EB /* Assets.xcassets in Resources */,
+				9916A166287A55FA00546E67 /* StationTableViewCell.xib in Resources */,
 				9982C5D32870F6E000B283EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,13 +271,16 @@
 			files = (
 				991EFDC02872177F00DC7F81 /* HomePageViewController.swift in Sources */,
 				9982C5D02870F6E000B283EB /* LoginViewController.swift in Sources */,
+				9916A165287A55FA00546E67 /* StationTableViewCell.swift in Sources */,
 				9982C5CC2870F6E000B283EB /* AppDelegate.swift in Sources */,
 				994582DD2875BE8100BB5C23 /* CityViewController.swift in Sources */,
 				994582E82875C7BF00BB5C23 /* LoginModel.swift in Sources */,
+				9933F1A528785CF0003E725F /* FilterViewController.swift in Sources */,
 				994582E62875C7B000BB5C23 /* User.swift in Sources */,
 				991EFDBC28720C9500DC7F81 /* LoginViewModel.swift in Sources */,
 				9933AA1928747A1D00BF6110 /* ProfileViewController.swift in Sources */,
 				9982C5CE2870F6E000B283EB /* SceneDelegate.swift in Sources */,
+				994582EA2875DB7900BB5C23 /* StationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

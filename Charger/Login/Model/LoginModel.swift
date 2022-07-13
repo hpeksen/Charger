@@ -42,6 +42,7 @@ class LoginModel{
             
             if let error = error {
                 print("Post Request Error: \(error.localizedDescription)")
+                completion(.failure(error))
                 return
             }
             
@@ -63,10 +64,14 @@ class LoginModel{
                 // create json object from data or use JSONDecoder to convert to Model stuct
                 let user = try JSONDecoder().decode(User.self, from: responseData)
                 completion(.success(httpResponse.statusCode))
+                let defaults = UserDefaults.standard
+                defaults.set(user.email, forKey: "email")
+                defaults.set(user.token, forKey: "token")
+                defaults.set(user.userId, forKey: "userID")
                 print("\(String(describing: user.email))")
                 print("\(String(describing: user.token))")
                 print("\(String(describing: user.userId))")
-                //ProjectRepository.user = user
+                print("\(String(describing: defaults.object(forKey: "userID")))")
             } catch let error {
                 completion(.failure(error))
                 print(error.localizedDescription)
