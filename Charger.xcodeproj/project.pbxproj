@@ -10,10 +10,17 @@
 		0A08BA0E97C157725D1409BA /* Pods_Charger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458BE58A93A6BB2CF40AB058 /* Pods_Charger.framework */; };
 		9916A165287A55FA00546E67 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9916A163287A55FA00546E67 /* StationTableViewCell.swift */; };
 		9916A166287A55FA00546E67 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9916A164287A55FA00546E67 /* StationTableViewCell.xib */; };
+		991E9AB4287EF48E00FB7064 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991E9AB3287EF48E00FB7064 /* CityModel.swift */; };
 		991EFDBC28720C9500DC7F81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EFDBB28720C9500DC7F81 /* LoginViewModel.swift */; };
 		991EFDC02872177F00DC7F81 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */; };
 		9933AA1928747A1D00BF6110 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933AA1828747A1D00BF6110 /* ProfileViewController.swift */; };
 		9933F1A528785CF0003E725F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933F1A428785CF0003E725F /* FilterViewController.swift */; };
+		993B28A9288443210008E15D /* DataAndTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B28A8288443210008E15D /* DataAndTimeViewController.swift */; };
+		993B28AC2884465D0008E15D /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B28AA2884465D0008E15D /* TimeCollectionViewCell.swift */; };
+		993B28AD2884465D0008E15D /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993B28AB2884465D0008E15D /* TimeCollectionViewCell.xib */; };
+		993B28B0288486DE0008E15D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B28AF288486DE0008E15D /* Model.swift */; };
+		993B28B928848FCB0008E15D /* AppointmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B28B728848FCB0008E15D /* AppointmentDetailViewController.swift */; };
+		993B28BD288492450008E15D /* AppointmentDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B28BC288492450008E15D /* AppointmentDetailModel.swift */; };
 		994582DD2875BE8100BB5C23 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582DC2875BE8100BB5C23 /* CityViewController.swift */; };
 		994582E62875C7B000BB5C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582E52875C7B000BB5C23 /* User.swift */; };
 		994582E82875C7BF00BB5C23 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994582E72875C7BF00BB5C23 /* LoginModel.swift */; };
@@ -30,10 +37,17 @@
 		458BE58A93A6BB2CF40AB058 /* Pods_Charger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9916A163287A55FA00546E67 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
 		9916A164287A55FA00546E67 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		991E9AB3287EF48E00FB7064 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		991EFDBB28720C9500DC7F81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		9933AA1828747A1D00BF6110 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		9933F1A428785CF0003E725F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		993B28A8288443210008E15D /* DataAndTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndTimeViewController.swift; sourceTree = "<group>"; };
+		993B28AA2884465D0008E15D /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		993B28AB2884465D0008E15D /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		993B28AF288486DE0008E15D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		993B28B728848FCB0008E15D /* AppointmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailViewController.swift; sourceTree = "<group>"; };
+		993B28BC288492450008E15D /* AppointmentDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailModel.swift; sourceTree = "<group>"; };
 		994582DC2875BE8100BB5C23 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		994582E52875C7B000BB5C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		994582E72875C7BF00BB5C23 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
@@ -79,6 +93,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		991E9AAB287EEFFE00FB7064 /* SelectCity */ = {
+			isa = PBXGroup;
+			children = (
+				991E9AAC287EF01300FB7064 /* View */,
+			);
+			path = SelectCity;
+			sourceTree = "<group>";
+		};
+		991E9AAC287EF01300FB7064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9916A164287A55FA00546E67 /* StationTableViewCell.xib */,
+				9916A163287A55FA00546E67 /* StationTableViewCell.swift */,
+				994582E92875DB7900BB5C23 /* StationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		99360BE22871CC1100920922 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +135,26 @@
 				991EFDBB28720C9500DC7F81 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		993B28AE28847F390008E15D /* DateAndTime */ = {
+			isa = PBXGroup;
+			children = (
+				993B28A8288443210008E15D /* DataAndTimeViewController.swift */,
+				993B28AA2884465D0008E15D /* TimeCollectionViewCell.swift */,
+				993B28AB2884465D0008E15D /* TimeCollectionViewCell.xib */,
+				993B28AF288486DE0008E15D /* Model.swift */,
+			);
+			path = DateAndTime;
+			sourceTree = "<group>";
+		};
+		993B28BB2884922A0008E15D /* AppointmentDetail */ = {
+			isa = PBXGroup;
+			children = (
+				993B28B728848FCB0008E15D /* AppointmentDetailViewController.swift */,
+				993B28BC288492450008E15D /* AppointmentDetailModel.swift */,
+			);
+			path = AppointmentDetail;
 			sourceTree = "<group>";
 		};
 		994582E42875C6F800BB5C23 /* Model */ = {
@@ -135,6 +187,9 @@
 		9982C5CA2870F6E000B283EB /* Charger */ = {
 			isa = PBXGroup;
 			children = (
+				993B28BB2884922A0008E15D /* AppointmentDetail */,
+				993B28AE28847F390008E15D /* DateAndTime */,
+				991E9AAB287EEFFE00FB7064 /* SelectCity */,
 				99360BE22871CC1100920922 /* Login */,
 				9982C5CB2870F6E000B283EB /* AppDelegate.swift */,
 				9982C5CD2870F6E000B283EB /* SceneDelegate.swift */,
@@ -145,10 +200,8 @@
 				991EFDBF2872177F00DC7F81 /* HomePageViewController.swift */,
 				9933AA1828747A1D00BF6110 /* ProfileViewController.swift */,
 				994582DC2875BE8100BB5C23 /* CityViewController.swift */,
-				994582E92875DB7900BB5C23 /* StationViewController.swift */,
 				9933F1A428785CF0003E725F /* FilterViewController.swift */,
-				9916A163287A55FA00546E67 /* StationTableViewCell.swift */,
-				9916A164287A55FA00546E67 /* StationTableViewCell.xib */,
+				991E9AB3287EF48E00FB7064 /* CityModel.swift */,
 			);
 			path = Charger;
 			sourceTree = "<group>";
@@ -215,6 +268,7 @@
 			files = (
 				9982C5D82870F6E100B283EB /* LaunchScreen.storyboard in Resources */,
 				9982C5D52870F6E100B283EB /* Assets.xcassets in Resources */,
+				993B28AD2884465D0008E15D /* TimeCollectionViewCell.xib in Resources */,
 				9916A166287A55FA00546E67 /* StationTableViewCell.xib in Resources */,
 				9982C5D32870F6E000B283EB /* Main.storyboard in Resources */,
 			);
@@ -271,13 +325,19 @@
 			files = (
 				991EFDC02872177F00DC7F81 /* HomePageViewController.swift in Sources */,
 				9982C5D02870F6E000B283EB /* LoginViewController.swift in Sources */,
+				993B28B928848FCB0008E15D /* AppointmentDetailViewController.swift in Sources */,
 				9916A165287A55FA00546E67 /* StationTableViewCell.swift in Sources */,
 				9982C5CC2870F6E000B283EB /* AppDelegate.swift in Sources */,
 				994582DD2875BE8100BB5C23 /* CityViewController.swift in Sources */,
+				993B28BD288492450008E15D /* AppointmentDetailModel.swift in Sources */,
+				993B28AC2884465D0008E15D /* TimeCollectionViewCell.swift in Sources */,
 				994582E82875C7BF00BB5C23 /* LoginModel.swift in Sources */,
 				9933F1A528785CF0003E725F /* FilterViewController.swift in Sources */,
+				993B28A9288443210008E15D /* DataAndTimeViewController.swift in Sources */,
 				994582E62875C7B000BB5C23 /* User.swift in Sources */,
 				991EFDBC28720C9500DC7F81 /* LoginViewModel.swift in Sources */,
+				993B28B0288486DE0008E15D /* Model.swift in Sources */,
+				991E9AB4287EF48E00FB7064 /* CityModel.swift in Sources */,
 				9933AA1928747A1D00BF6110 /* ProfileViewController.swift in Sources */,
 				9982C5CE2870F6E000B283EB /* SceneDelegate.swift in Sources */,
 				994582EA2875DB7900BB5C23 /* StationViewController.swift in Sources */,

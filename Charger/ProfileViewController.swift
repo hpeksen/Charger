@@ -30,7 +30,6 @@ class ProfileViewController: UIViewController {
             switch code{
             case .success(let code):
                 if(code == 200){
-                    print("SUCCEESS")
                     DispatchQueue.main.async {
                         if let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController {
                             self.navigationController?.pushViewController(vc, animated: true)
@@ -46,20 +45,15 @@ class ProfileViewController: UIViewController {
     }
 
         func logOutPostRequest(email: String, completion: @escaping (Result<Int, Error>) -> Void){
-            
             // declare the parameter as a dictionary that contains string as key and value combination. considering inputs are valid
             let parameters: [String: Any] = ["email": email, "deviceUDID": "\(String(describing: UIDevice.current.identifierForVendor))"]
-            
             // create the url with URL
             let url = URL(string: "http://ec2-18-197-100-203.eu-central-1.compute.amazonaws.com:8080/auth/logout/\(String(describing: Int(userId!)))")!
-            
             // create the session object
             let session = URLSession.shared
-            
             // now create the URLRequest object using the url object
             var request = URLRequest(url: url)
             request.httpMethod = "POST" //set http method as POST
-            
             // add headers for the request
             request.addValue("application/json", forHTTPHeaderField: "Content-Type") // change as per server requirements
             request.addValue("application/json", forHTTPHeaderField: "Accept")
